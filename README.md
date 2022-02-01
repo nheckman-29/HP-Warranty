@@ -1,0 +1,1 @@
+Python script to retrieve HP Warranty information based on CSV output from SCCM
