@@ -4,8 +4,14 @@
 import pandas as p
 import os as os
 
-#Change directory to where the CSV file is or navigate in shell where Python is running
-#os.chdir(PATH)
+def main():
+    #Get user input for file path, use as the variable
+    print()
 
-file = p.read_csv('all_systems.csv')
+def trim_csv():
+    #Change directory to where the CSV file is on your system
+    file = p.read_csv('all_systems.csv')
+
+if __name__ == "__main__":
+    main()
 
